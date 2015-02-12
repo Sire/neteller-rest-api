@@ -1,0 +1,88 @@
+﻿{
+  "list": 
+  [
+    {
+      "subscriptionId": 53,
+      "plan": {
+        "link": {
+          "url": "https://api.neteller.com/v1/plans/TestPlan1",
+          "rel": "plan",
+          "method": "GET"
+        }
+      },
+      "customer": {
+        "link": {
+          "url": "https://api.neteller.com/v1/customers/CUS_1234567892B47-4969-B1D4-9ED720D09581",
+          "rel": "customer",
+          "method": "GET"
+        }
+      },
+      "status": "active",
+      "startDate": "2014-11-14T13:50:16Z",
+      "endDate": "2098-02-14T13:50:16Z",
+      "currentPeriodStart": "2014-12-14T13:50:16Z",
+      "currentPeriodEnd": "2015-01-14T13:50:16Z",
+      "cancelAtPeriodEnd": false,
+      "cancelDate": null,
+      "lastCompletedPaymentDate": null
+    },
+    {
+      "subscriptionId": 59,
+      "plan": {
+        "link": {
+          "url": "https://api.neteller.com/v1/plans/TestPlan2",
+          "rel": "plan",
+          "method": "GET"
+        }
+      },
+      "customer": {
+        "link": {
+          "url": "https://api.neteller.com/v1/customers/CUS_1234567892B47-4969-B1D4-9ED720D09581",
+          "rel": "customer",
+          "method": "GET"
+        }
+      },
+      "status": "active",
+      "startDate": "2014-11-13T12:41:50Z",
+      "endDate": "2098-02-13T12:41:50Z",
+      "currentPeriodStart": "2014-12-13T12:41:50Z",
+      "currentPeriodEnd": "2015-01-13T12:41:50Z",
+      "cancelAtPeriodEnd": false,
+      "cancelDate": null,
+      "lastCompletedPaymentDate": null
+    },
+    {
+      "subscriptionId": 57,
+      "plan": {
+        "link": {
+          "url": "https://api.neteller.com/v1/plans/TestPlan3",
+          "rel": "plan",
+          "method": "GET"
+        }
+      },
+      "customer": {
+        "link": {
+          "url": "https://api.neteller.com/v1/customers/CUS_1234567892B47-4969-B1D4-9ED720D09581",
+          "rel": "customer",
+          "method": "GET"
+        }
+      },
+      "status": "ended",
+      "startDate": "2014-11-12T14:11:53Z",
+      "endDate": "2014-11-15T14:11:53Z",
+      "currentPeriodStart": "2014-11-14T14:11:53Z",
+      "currentPeriodEnd": "2014-11-15T14:11:53Z",
+      "cancelAtPeriodEnd": false,
+      "cancelDate": null,
+      "lastCompletedPaymentDate": null
+    }
+  ],
+  "links": 
+  [
+    {
+      "url": "https://api.neteller.com/v1/subscriptions/?session=4946&limit=100&offset=0",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

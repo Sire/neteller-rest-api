@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neteller.API", "Neteller.API\Neteller.API.csproj", "{5364DF23-3DB5-434A-B700-EE6A864B6104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neteller.API.Test", "Neteller.API.Test\Neteller.API.Test.csproj", "{6D53D15A-26CF-4931-99D6-84473102C302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{18BFA20C-76EB-4A2E-8572-51B603C76E4A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5364DF23-3DB5-434A-B700-EE6A864B6104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5364DF23-3DB5-434A-B700-EE6A864B6104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5364DF23-3DB5-434A-B700-EE6A864B6104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5364DF23-3DB5-434A-B700-EE6A864B6104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D53D15A-26CF-4931-99D6-84473102C302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D53D15A-26CF-4931-99D6-84473102C302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D53D15A-26CF-4931-99D6-84473102C302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D53D15A-26CF-4931-99D6-84473102C302}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

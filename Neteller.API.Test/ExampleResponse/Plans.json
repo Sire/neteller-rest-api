@@ -1,0 +1,36 @@
+﻿{
+  "list": 
+  [
+    {
+      "planId": "Test3Days",
+      "planName": "Test subscription. Recurring every day for 3 days.",
+      "interval": 1,
+      "intervalType": "daily",
+      "intervalCount": 3,
+      "amount": 1000,
+      "currency": "EUR",
+      "status": "active",
+      "numberOfSubscriptions": 3
+    },
+
+    {
+      "planId": "TestEvery32Days",
+      "planName": "Test subscription. Recurring every 32 days.",
+      "interval": 32,
+      "intervalType": "daily",
+      "intervalCount": 999,
+      "amount": 12900,
+      "currency": "EUR",
+      "status": "active",
+      "numberOfSubscriptions": 7
+    }
+  ],
+  "links": 
+  [
+    {
+      "url": "https://api.neteller.com/v1/plans/?session=677724&limit=100&offset=0",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

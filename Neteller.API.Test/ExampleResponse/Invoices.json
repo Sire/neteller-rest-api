@@ -1,0 +1,89 @@
+﻿{
+    "list": [
+        {
+            "invoiceNumber": "30",
+            "invoiceDate": "2014-12-13T00:00:00Z",
+            "invoiceType": "subscription",
+            "status": "paid",
+            "customer": {
+                "link": {
+                    "url": "https://api.neteller.com/v1/customers/CUS_12345678-8BE9-451E-A9BE-2558C678F30A",
+                    "rel": "customer",
+                    "method": "GET"
+                }
+            },
+            "subscription": {
+                "link": {
+                    "url": "https://api.neteller.com/v1/subscriptions/54",
+                    "rel": "subscription",
+                    "method": "GET"
+                }
+            },
+            "periodStartDate": "2014-12-13T00:00:00Z",
+            "periodEndDate": "2014-12-14T00:00:00Z",
+            "totalAmount": "1000",
+            "currency": "EUR",
+            "retryCount": "2",
+            "nextRetryDate": null
+        },
+        {
+            "invoiceNumber": "29",
+            "invoiceDate": "2014-12-12T00:00:00Z",
+            "invoiceType": "subscription",
+            "status": "paid",
+            "customer": {
+                "link": {
+                    "url": "https://api.neteller.com/v1/customers/CUS_12345678-8BE9-451E-A9BE-2558C678F30A",
+                    "rel": "customer",
+                    "method": "GET"
+                }
+            },
+            "subscription": {
+                "link": {
+                    "url": "https://api.neteller.com/v1/subscriptions/54",
+                    "rel": "subscription",
+                    "method": "GET"
+                }
+            },
+            "periodStartDate": "2014-12-12T00:00:00Z",
+            "periodEndDate": "2014-12-13T00:00:00Z",
+            "totalAmount": "1000",
+            "currency": "EUR",
+            "retryCount": "0",
+            "nextRetryDate": null
+        },
+        {
+            "invoiceNumber": "28",
+            "invoiceDate": "2014-12-11T00:00:00Z",
+            "invoiceType": "subscription",
+            "status": "paid",
+            "customer": {
+                "link": {
+                    "url": "https://api.neteller.com/v1/customers/CUS_12345678-8BE9-451E-A9BE-2558C678F30A",
+                    "rel": "customer",
+                    "method": "GET"
+                }
+            },
+            "subscription": {
+                "link": {
+                    "url": "https://api.neteller.com/v1/subscriptions/54",
+                    "rel": "subscription",
+                    "method": "GET"
+                }
+            },
+            "periodStartDate": "2014-12-11T00:00:00Z",
+            "periodEndDate": "2014-12-12T00:00:00Z",
+            "totalAmount": "1000",
+            "currency": "EUR",
+            "retryCount": "0",
+            "nextRetryDate": null
+        }
+    ],
+    "links": [
+        {
+            "url": "https://api.neteller.com/v1/subscriptions/54/invoices?session=677473&limit=10&offset=0",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
+}

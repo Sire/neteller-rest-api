@@ -1,0 +1,45 @@
+﻿{
+  "subscriptionId": "25",
+  "plan": {
+    "planId": "TestPlan",
+    "planName": "Test subscription.",
+    "interval": 1,
+    "intervalType": "weekly",
+    "intervalCount": 1,
+    "amount": 1000,
+    "currency": "EUR",
+    "status": "active",
+    "numberOfSubscriptions": 2
+  },
+  "customer": {
+    "customerId": "CUS_12345678-8BE9-451E-A9BE-2558C678F30A",
+    "accountProfile": {
+      "email": "info@domain.com",
+      "accountId": "123456789000",
+      "firstName": "Arne",
+      "lastName": "Anka",
+      "country": "SE",
+      "dateOfBirth": {
+        "year": "1950",
+        "month": "10",
+        "day": "10"
+      }
+    },
+    "verificationLevel": "11"
+  },
+  "status": "ended",
+  "startDate": "2014-10-01T12:36:05Z",
+  "endDate": "2014-10-08T12:36:05Z",
+  "currentPeriodStart": "2014-10-01T12:36:05Z",
+  "currentPeriodEnd": "2014-10-08T12:36:05Z",
+  "cancelAtPeriodEnd": "false",
+  "cancelDate": null,
+  "links": 
+  [
+    {
+      "url": "https://api.neteller.com/v1/subscriptions/25",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

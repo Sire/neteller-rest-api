@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Neteller>
+
+	<!-- TEST/SANDBOX: Your unique Neteller App Client ID and Secret. -->
+	<add key="ClientIDTest" value="xxxxxxxxxxx" />
+	<add key="ClientSecretTest" value="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+	<!-- Redirect URL where Neteller will post after successful authentication -->
+	<!-- During development a great tool is https://www.runscope.com/ -->
+	<add key="RedirectUrlTest" value="https://domain.com/neteller/" />
+
+	
+	<!-- PRODUCTION -->
+	<add key="ClientID" value="xxxxxxxxxxx" />
+	<add key="ClientSecret" value="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+	<add key="RedirectUrl" value="https://domain.com/neteller/" />
+
+</Neteller>

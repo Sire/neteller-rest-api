@@ -1,0 +1,16 @@
+﻿{
+  "customerId": "CUS_12345678-8BE9-451E-A9BE-2558C678F30A",
+  "accountProfile": {
+    "email": "info@domain.com",
+    "accountId": "123456789000",
+    "firstName": "Arne",
+    "lastName": "Anka",
+    "country": "SE",
+    "dateOfBirth": {
+      "year": "1976",
+      "month": "10",
+      "day": "10"
+    }
+  },
+  "verificationLevel": "11"
+}
